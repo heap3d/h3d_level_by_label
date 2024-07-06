@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="801">
+	<kit name="h3d_level_by_label" restart="YES">
+		<source target="h3d_level_by_label/index.cfg">index.cfg</source>
+		<source target="h3d_level_by_label/scripts/level_by_label.py">scripts/level_by_label.py</source>
+	</kit>
+	<message button="Help">h3d_level_by_label Kit installation complete.</message>
+</package>
