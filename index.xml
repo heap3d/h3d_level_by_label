@@ -3,6 +3,7 @@
 	<kit name="h3d_level_by_label" restart="YES">
 		<source target="h3d_level_by_label/index.cfg">index.cfg</source>
 		<source target="h3d_level_by_label/scripts/level_by_label.py">scripts/level_by_label.py</source>
+		<source target="h3d_level_by_label/scripts/deselect_nonempty_label.py">scripts/deselect_nonempty_label.py</source>
 	</kit>
 	<message button="Help">h3d_level_by_label Kit installation complete.</message>
 </package>
