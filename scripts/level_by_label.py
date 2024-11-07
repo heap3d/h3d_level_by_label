@@ -22,7 +22,7 @@ class Axis:
 
 
 def get_label(item: modo.Item) -> str:
-    return lx.eval(f'item.help label:? item:{item.id}')  # type: ignore
+    return lx.eval(f'item.help label:? item:{{{item.id}}}')  # type: ignore
 
 
 def set_pos(axis: str = Axis.y, item=None, value=None):
@@ -30,7 +30,7 @@ def set_pos(axis: str = Axis.y, item=None, value=None):
         return
     if not value:
         return
-    lx.eval(f'transform.channel pos.{axis} {value} item:{item.id}')
+    lx.eval(f'transform.channel pos.{axis} {value} item:{{{item.id}}}')
 
 
 def main():
